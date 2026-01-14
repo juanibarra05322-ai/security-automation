@@ -1,16 +1,26 @@
-# security-automation
-# Basic Port Checker
+# Security Automation
 
-Simple Python script to identify common open ports on a target system.
+Basic automation scripts focused on cybersecurity tasks and learning purposes.
 
-## Purpose
-Demonstrate basic automation for security awareness and exposure analysis.
+## Script: Basic Port Check
 
-## What it does
-- Checks connectivity
-- Scans common service ports
-- Saves readable results to a file
+This script performs a simple TCP port scan against common services to identify open ports.
 
-## Ethical Notice
-This script is intended for educational use and authorized testing only.
-Do not scan systems without permission.
+### Features
+- Command-line arguments
+- Scans common ports
+- Saves results to a timestamped file
+- Simple and readable code
+
+### Usage
+```bash
+python3 basic_port_check.py example.com
+```
+
+### Example Output
+
+See examples/sample_output.txt
+
+### Disclaimer
+
+For educational and authorized testing only.
